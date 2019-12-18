@@ -1,0 +1,17 @@
+{
+  "name": "PHP-ELECTRON By Megamind",
+  "version": "0.1.0",
+  "description": "Php Server in Electron",
+  "license": "MIT",
+  "repository": "https://github.com/MEGAMINDMK",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^7.1.5"
+  },
+  "dependencies": {
+    "child-process": "^1.0.2"
+  }
+}
