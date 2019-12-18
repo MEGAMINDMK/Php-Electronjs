@@ -7,5 +7,5 @@
     </a>
 </div>
 
-# The PHP icudt65.dll is missing
+# The PHP files are missing
 - Re download the full <a href="https://windows.php.net/download#php-7.4-ts-vc15-x86">php from official site</a>
