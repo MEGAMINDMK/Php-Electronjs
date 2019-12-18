@@ -1,2 +1,2 @@
-cd resources/app/php
+cd php
 call php -S localhost:80
