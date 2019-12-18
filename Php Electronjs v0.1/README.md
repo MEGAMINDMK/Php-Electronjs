@@ -24,5 +24,3 @@ A working php server with electronjs fully customizable &amp; easy to use
 
 # Download
 <a href="https://github.com/MEGAMINDMK/PHP-Electronjs/releases/download/v0.1/php_electron.exe">Clicky ! v0.1</a>
-<br>
-<a href="https://github.com/MEGAMINDMK/PHP-Electronjs/releases/download/v0.2/php_electron.exe">Clicky ! v0.2</a>
