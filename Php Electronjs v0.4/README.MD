@@ -20,7 +20,7 @@ A working php server with electronjs fully customizable &amp; easy to use
 # Steps
 - npm i
 - npm start
-- electron-packager .
+- npm run package-win
 
 # Download
 <a href="https://github.com/MEGAMINDMK/PHP-Electronjs/releases/download/v0.4/php_electron.exe">Clicky ! v0.4</a>
