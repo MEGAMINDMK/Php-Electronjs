@@ -13,6 +13,8 @@ function php(){
 //const spawn = require('child_process').spawn;
 //const bat = spawn('cmd.exe', ['/c', myBatFilePath]);
 const exec = require('child_process').exec;
+//Use below code if php not starting bug occurs in v4
+//exec('cd resources/php && call php -S localhost:80', (e, stdout, stderr)=> {
 exec('cd ../extraResources/php && call php -S localhost:80', (e, stdout, stderr)=> {
     if (e instanceof Error) {
         console.error(e);
