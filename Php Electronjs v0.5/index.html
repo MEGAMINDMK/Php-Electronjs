@@ -3,6 +3,10 @@ webview{
     width: 100%;
     height: 100%;
 }
+    body, html {
+        margin: 0px;
+        padding: 0px;
+    }
 </style>
 <body onload="php();">
 <webview src="http://localhost/www" autosize="on" webpreferences="nodeIntegration=no,nativeWindowOpen=true" useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" plugins></webview>
