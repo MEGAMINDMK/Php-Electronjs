@@ -10,7 +10,7 @@
 	"package-win": "electron-packager . --asar --overwrite --platform=win32 --icon=icon/icon.ico --prune=true --extra-resource=./extraResources/php"
   },
   "devDependencies": {
-    "electron": "^2.0.18"
+    "electron": "^7.2.4"
   },
   "dependencies": {
     "child-process": "^1.0.2"
