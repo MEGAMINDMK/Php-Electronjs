@@ -9,7 +9,7 @@
     "start": "electron ."
   },
   "devDependencies": {
-    "electron": "^2.0.18"
+    "electron": "^7.2.4"
   },
   "dependencies": {
     "child-process": "^1.0.2"
