@@ -14,10 +14,10 @@ webview{
 <script>
 function php(){
 const exec = require('child_process').exec;
-//when working locally use the below string
-//exec('cd extraresources/php && call php -S localhost:80', (e, stdout, stderr)=> {
-//when compiling for public use below string
-exec('cd resources/php && call php -S localhost:80', (e, stdout, stderr)=> {
+const { join, normalize } = require('path');
+const fs = require('fs')
+let path = (fs.existsSync('extraresources/php && call php -S localhost:80')) ? 'extraresources/php' : 'resources/php';
+exec(`cd ${path} && call php -S localhost:80`, (e, stdout, stderr) => {
     if (e instanceof Error) {
         console.error(e);
         throw e;
